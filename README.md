@@ -4,7 +4,7 @@ SQL Internship - Assignment-1
 This project demonstrates basic SQL operations such as creating tables,
 inserting data, and performing queries like SELECT, WHERE and BETWEEN.
 
-Table Structure
+## Table Structure
 CREATE TABLE Students (
     Student_ID INT PRIMARY KEY,
     Student_Name VARCHAR(50),
@@ -14,9 +14,9 @@ CREATE TABLE Students (
     Marks INT
 );
 
-Practice Queries (10)
+## Practice Queries (10)
 
-1.Show all student details.
+--1.Show all student details.
 SELECT * FROM Students;
 
 2.Show only Student Name and City.
@@ -46,11 +46,11 @@ SELECT Student_ID, Student_Name FROM Students WHERE Course='MCA';
 10.Fetch Students with Marks Between 80 and 90.
 SELECT * FROM Students WHERE Marks between 80 and 90;
 
-Conclusion
+## Conclusion
 
 In this Assignment, I successfully created the Students table, inserted sample data, and executed multiple SQL queries.
 
-Author
+## Author
 Dushyant Pundir
 
 
