@@ -16,7 +16,7 @@ CREATE TABLE Students (
 
 ## Practice Queries (10)
 
---1.Show all student details.
+# 1.Show all student details.
 SELECT * FROM Students;
 
 2.Show only Student Name and City.
